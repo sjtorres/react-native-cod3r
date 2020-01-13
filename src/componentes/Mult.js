@@ -11,7 +11,7 @@ export const Inverter = props => {
 };
 
 export const MegaSena = props => {
-  const [min, max] = [0, 60];
+  const [min, max] = [0, 100];
   const numeros = Array(props.numeros || 6).fill(0);
 
   for (let i = 0; i < numeros.length; i++) {
